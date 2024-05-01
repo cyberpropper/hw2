@@ -11,11 +11,19 @@ public class Main {
 
         var boxer1 = 78.2;
         var boxer2 = 82.7;
-        var allboxer = boxer1 + boxer2;
-        System.out.println("общий вес" + allboxer );
+        var allBoxer = boxer1 + boxer2;
+        System.out.println("общий вес" + allBoxer );
         var diff = boxer2 - boxer1;
         System.out.println("разница" + diff);
         var rem = boxer2 % boxer1;
         System.out.println("остаток от деления" + rem);
+
+        var wTime = 640;
+        var workers = wTime / 8;
+        System.out.println("Всего работников в компании - " + workers);
+        var workersPlus = workers + 94;
+        var wTimeAll = 640 / workersPlus;
+        System.out.println("Если в компании работает " + workersPlus + " человек, то всего " + wTimeAll + " часов работы может быть поделено между сотрудниками");
+
     }
 }
