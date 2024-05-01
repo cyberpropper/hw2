@@ -15,7 +15,7 @@ public class Main {
         System.out.println("общий вес" + allboxer );
         var diff = boxer2 - boxer1;
         System.out.println("разница" + diff);
-
-
+        var rem = boxer2 % boxer1;
+        System.out.println("остаток от деления" + rem);
     }
 }
