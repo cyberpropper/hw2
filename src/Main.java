@@ -16,7 +16,7 @@ public class Main {
         var diff = boxer2 - boxer1;
         System.out.println("разница " + diff);
         var rem = boxer2 % boxer1;
-        System.out.println("остаток от деления " + rem);
+        System.out.println("остаток от деления " + rem );
 
         var wTime = 640;
         var workers = wTime / 8;
